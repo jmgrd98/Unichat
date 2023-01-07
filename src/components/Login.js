@@ -18,11 +18,11 @@ export default function Login(){
                     
                 </div>
 
-                <div
+                {/* <div
                 className="login-button facebook"
                 onClick={() => auth.signInWithRedirect(new firebase.auth.FacebookAuthProvider())}>
                     <FacebookOutlined/> Sign in with Facebook
-                </div>
+                </div> */}
 
             </div>
         </div>
